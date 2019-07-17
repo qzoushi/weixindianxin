@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "点心小屋",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "list":[{
+      "selectedIconPath":"icon/iconSelect/home.png",
+      "iconPath":"icon/icon/home.png",
+      "pagePath":"pages/index/index",
+      "text":"首页"
+    },{
+      "selectedIconPath": "icon/iconSelect/position-fill.png",
+      "iconPath": "icon/icon/position-fill.png",
+      "pagePath":"pages/logs/logs",
+      "text":"附近"
+    },{
+      "selectedIconPath": "icon/iconSelect/eye-fill.png",
+      "iconPath":"icon/icon/eye-fill.png",
+      "pagePath": "pages/logs/logs",
+      "text": "发现"
+    },{
+      "selectedIconPath": "icon/iconSelect/database-plus.png",
+      "iconPath":"icon/icon/database-plus.png",
+      "pagePath": "pages/logs/logs",
+      "text": "订单"
+    },{
+      "selectedIconPath": "icon/iconSelect/user-circle.png",
+      "iconPath":"icon/icon/user-circle.png",
+      "pagePath": "pages/logs/logs",
+      "text": "我的"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}
